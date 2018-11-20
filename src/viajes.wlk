@@ -27,7 +27,7 @@ class Actividades {
     }
     
     method esRecomendadaPara(socio){
-    	return self.esInteresante() && socio.leAtrae() && !socio.actividades()
+    	return self.esInteresante() && socio.leAtrae() && !socio.actividades() // falta parametro a leAtrae, actividades() no es booleano
     }
 }
 
